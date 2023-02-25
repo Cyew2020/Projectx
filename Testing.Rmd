@@ -1,0 +1,59 @@
+---
+title: "Testing"
+output: html_document
+date: "2023-02-22"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+https://htmlpreview.github.io/?https://github.com/Cyew2020/project7/blob/main/index.html
+
+<!-- Note some liked html does not works. look like depend how it was created!!
+--> 
+https://htmlpreview.github.io/?https://github.com/Cyew2020/project7/blob/main/zzz.html
+
+
+https://docs.google.com/spreadsheets/d/1SCIVVNl7Zl79x-TpNLCM_vBaG9nhRIjNRDEwBLwyML8/edit#gid=0
+
+[Circles9](https://htmlpreview.github.io/?https://github.com/Cyew2020/project7/blob/main/hello.html)
+
+[Circles1](https://htmlpreview.github.io/?https://github.com/Cyew2020/project7/blob/main/index.html)
+
+<!-- this is the sharelinks excel file in https://drive.google.com/drive/my-drive 
+This is public shared mode. When double click to open it you get this URL. Inside this file you add other
+link to githup page for example as in [Circles1] above!
+--> 
+[Circles2](https://docs.google.com/spreadsheets/d/1SCIVVNl7Zl79x-TpNLCM_vBaG9nhRIjNRDEwBLwyML8/edit#gid=0)
+
+
+[RStudio](https://www.rstudio.com)
+
+```{r, echo=FALSE}
+htmltools::includeHTML("I:/zzz.html")
+htmltools::includeHTML("I:/Jscript/Project3/doughnut.html")
+htmltools::includeHTML("I:/Jscript/Project3/zzz3.html")
+htmltools::includeHTML("https://htmlpreview.github.io/?https://github.com/Cyew2020/project7/blob/main/index.html")
+
+```
